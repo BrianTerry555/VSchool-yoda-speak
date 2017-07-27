@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 600px;
+  background-image: url("/images/yoda.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+
+
+h1 {
+  text-align: center;
+  color: #17B21B;
+  margin: 0;
+  font-size: 48px;
+  font-family: "Lobster";
+  margin-top: 80px;
+  text-shadow: 2px 2px 2px black;
+}
+
+h3 {
+  text-align: center;
+  color: #17B21B;
+  margin: 0;
+  font-family: "Lobster";
+  font-size: 26px;
+  text-shadow: 1.5px 1.5px 1.5px black;
+  margin-top: 10px;
+}
+
+h4 {
+  font-family: "Lobster";
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+  color: #17B21B;
+  margin: 0;
+  margin-top: 30px;
+}
+
+.input {
+  margin-top: 120px;
+}
+
+.input-text {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.input-form {
+  width: 80%;
+  float: left;
+  height: 25px;
+  font-style: 16px;
+}
+
+.input-button {
+  width: 20%;
+  float: left;
+  height: 25px;
+  background-color: #38CC30;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border: none;
+}
+
+.output {
+  padding: 20px 0px;
+  text-align: center;
+}
